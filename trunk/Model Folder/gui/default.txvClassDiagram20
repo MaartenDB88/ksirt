@@ -5,5 +5,9 @@
 	<view uin="V1hexuhfcylono4-h9legd">
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
+		<reference referencedUin="jdt:e_class:src:gui.StartJFrame">
+			<property name="bounds" value="5,5,105,192"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
 	</view>
 </nodeSet>
