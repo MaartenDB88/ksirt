@@ -1,6 +1,7 @@
 package domein;
 public class Klant
 {
+private String taalcode1;
 //vars
 private int klantnummer;
 private String aanspreking;
@@ -208,6 +209,16 @@ private String notities;
 
 	public void setVoornaam(String voornaam) {
 		this.voornaam = voornaam;
+	}
+
+
+	public String getTaalcode1() {
+		return taalcode1;
+	}
+
+
+	public void setTaalcode1(String taalcode1) {
+		this.taalcode1 = taalcode1;
 	}
 	
 	
