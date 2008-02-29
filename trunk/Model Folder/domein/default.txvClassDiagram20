@@ -10,5 +10,9 @@
 			<property name="location_set_by_user" value="true"/>
 			<property name="bounds_setted_by_user" value="true"/>
 		</reference>
+		<reference referencedUin="design:view:::V1hexuhfd8lsaaj-qu433r">
+			<property name="bounds" value="181,17,82,121"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
 	</view>
 </nodeSet>
