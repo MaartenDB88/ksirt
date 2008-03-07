@@ -1,6 +1,6 @@
 import gui.*;
-import database.*;
 import domein.*;
+
 public class Startup {
 	public static void main(String[] args) 
 	{

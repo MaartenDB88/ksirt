@@ -1,4 +1,9 @@
 package domein;
+
+import java.sql.SQLException;
+import java.sql.Statement;
+import javax.swing.JOptionPane;
+
 public class Klant
 {
 
@@ -9,7 +14,7 @@ private String voornaam;
 private String bedrijf;
 private String ondernemingsnummer;
 private String straat;
-private int huisnummer;
+private String huisnummer;
 private String postcode;
 private String stad;
 private String land;
@@ -22,10 +27,8 @@ private String iban;
 private String bic;
 private String taalcode;
 private String notities;
-	
-	
-	
-	public Klant(int klantnummer, String aa, String vn, String fn, String be, String on, String st, int hnr, String stad, String po, String la, String te, String gs, String fa, String em, String re, String ib, String bi, String ta, String no)
+
+	public Klant(int klantnummer, String aa, String fn, String vn, String be, String on, String st, String hnr, String stad, String po, String la, String te, String gs, String fa, String em, String re, String ib, String bi, String ta, String no)
 		{
 		setKlantnummer(klantnummer);
 		setAanspreking(aa);
@@ -123,13 +126,13 @@ private String notities;
 
 
 
-	public int getHuisnummer() {
+	public String getHuisnummer() {
 		return huisnummer;
 	}
 
 
 
-	public void setHuisnummer(int huisnummer) {
+	public void setHuisnummer(String huisnummer) {
 		this.huisnummer = huisnummer;
 	}
 
@@ -288,9 +291,5 @@ private String notities;
 	public void setVoornaam(String voornaam) {
 		this.voornaam = voornaam;
 	}
-	
-
-
-	
 	
 }
