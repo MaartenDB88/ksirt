@@ -57,239 +57,141 @@ private String notities;
 	public String getAanspreking() {
 		return aanspreking;
 	}
-
-
-
 	public void setAanspreking(String aanspreking) {
 		this.aanspreking = aanspreking;
 	}
-
-
-
 	public String getBedrijf() {
 		return bedrijf;
 	}
-
-
-
 	public void setBedrijf(String bedrijf) {
 		this.bedrijf = bedrijf;
 	}
-
-
-
 	public String getBic() {
 		return bic;
 	}
-
-
-
 	public void setBic(String bic) {
 		this.bic = bic;
 	}
-
-
-
 	public String getEmail() {
 		return email;
 	}
-
-
-
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
-
-
 	public String getFax() {
 		return fax;
 	}
-
-
-
 	public void setFax(String fax) {
 		this.fax = fax;
 	}
-
-
-
 	public String getGsm() {
 		return gsm;
 	}
-
-
-
 	public void setGsm(String gsm) {
 		this.gsm = gsm;
 	}
-
-
-
 	public String getHuisnummer() {
 		return huisnummer;
 	}
-
-
-
 	public void setHuisnummer(String huisnummer) {
 		this.huisnummer = huisnummer;
 	}
-
-
-
 	public String getIban() {
 		return iban;
 	}
-
-
-
 	public void setIban(String iban) {
 		this.iban = iban;
 	}
-
-
-
 	public int getKlantnummer() {
 		return klantnummer;
 	}
-
-
-
 	public void setKlantnummer(int klantnummer) {
 		this.klantnummer = klantnummer;
 	}
-
-
-
 	public String getLand() {
 		return land;
 	}
-
-
-
 	public void setLand(String land) {
 		this.land = land;
 	}
-
-
-
 	public String getNaam() {
 		return naam;
 	}
-
-
-
 	public void setNaam(String naam) {
 		this.naam = naam;
 	}
-
-
-
 	public String getNotities() {
 		return notities;
 	}
-
-
-
 	public void setNotities(String notities) {
 		this.notities = notities;
 	}
-
-
-
 	public String getOndernemingsnummer() {
 		return ondernemingsnummer;
 	}
-
-
-
 	public void setOndernemingsnummer(String ondernemingsnummer) {
 		this.ondernemingsnummer = ondernemingsnummer;
 	}
-
-
-
 	public String getPostcode() {
 		return postcode;
 	}
-
-
-
 	public void setPostcode(String postcode) {
 		this.postcode = postcode;
 	}
-
-
-
 	public String getRekeningnummer() {
 		return rekeningnummer;
 	}
-
-
-
 	public void setRekeningnummer(String rekeningnummer) {
 		this.rekeningnummer = rekeningnummer;
 	}
-
-
-
 	public String getStad() {
 		return stad;
 	}
-
-
-
 	public void setStad(String stad) {
 		this.stad = stad;
 	}
-
-
-
 	public String getStraat() {
 		return straat;
 	}
-
-
-
 	public void setStraat(String straat) {
 		this.straat = straat;
 	}
-
-
-
 	public String getTaalcode() {
 		return taalcode;
 	}
-
-
-
 	public void setTaalcode(String taalcode) {
 		this.taalcode = taalcode;
 	}
-
-
-
 	public String getTelefoonnr() {
 		return telefoonnr;
 	}
-
-
-
 	public void setTelefoonnr(String telefoonnr) {
 		this.telefoonnr = telefoonnr;
 	}
-
-
-
 	public String getVoornaam() {
 		return voornaam;
 	}
-
-
-
 	public void setVoornaam(String voornaam) {
 		this.voornaam = voornaam;
 	}
 	
+	
+	
+	
+	public String toString() {
+		
+		return String.format("Voornaam: %s Naam %s Gsm %s", voornaam ,naam ,gsm );
+	}
+
+
+	//TODO
+	public void wijzigKlant()
+	{
+		
+	}
+	
 }
+
+
+
+
